@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './VotingFootballPage.css';
+import footballLogo from "../assets/football_logo.png";
 
 const NOMINEES = [
   {
@@ -60,11 +61,8 @@ const VotingFootballPage = () => {
 
   return (
     <div className="voting-football-page">
-      <div className="head">
-        <button>Accueil</button>
-        <button>Retour</button>
-      </div>
-      <h1 className="page-title">Ballon d'Or Interclasse 2025</h1>
+        <img src={footballLogo} alt="Logo principal" className="logo" />
+        <h1 className="page-title">Ballon d'Or Interclasse 2025</h1>
       <div className="nominees-container">
         {nominees.map((nominee) => (
           <div key={nominee.id} className="nominee-card">
