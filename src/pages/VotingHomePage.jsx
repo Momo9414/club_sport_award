@@ -6,7 +6,8 @@ import './VotingHomePage.css';
 const VotingHomePage = () => {
     return (
       <div className="voting-home-page">
-        <h1 className="page-title">Voting App</h1>
+        <h1 className="page-title">Club Sport ESATIC</h1>
+        <h1 className="page-title">Vote des Awards 2025</h1>
         <p className="page-description">
           Bienvenue dans l'application de vote ! Choisissez un événement pour commencer à voter.
         </p>

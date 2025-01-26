@@ -60,6 +60,10 @@ const VotingFootballPage = () => {
 
   return (
     <div className="voting-football-page">
+      <div className="head">
+        <button>Accueil</button>
+        <button>Retour</button>
+      </div>
       <h1 className="page-title">Ballon d'Or Interclasse 2025</h1>
       <div className="nominees-container">
         {nominees.map((nominee) => (

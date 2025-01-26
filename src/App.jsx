@@ -12,15 +12,8 @@ const App = () => {
       <div className="app-container">
         <header className="app-header">
           <div className="header-logo">
-            
+            <img src="./assets/logo.png" alt="" />
           </div>
-          <nav className="header-nav">
-            <ul>
-              <li><Link to="/">Accueil</Link></li>
-              <li><Link to="/football">Football</Link></li>
-              <li><Link to="/basketball">Basket</Link></li>
-            </ul>
-          </nav>
         </header>
 
         <Routes>
@@ -30,7 +23,7 @@ const App = () => {
         </Routes>
 
         <footer className="app-footer">
-          <p>&copy; 2023 Voting App. Tous droits réservés.</p>
+          <p>&copy; 2023 ClubSportESATIC App. Tous droits réservés.</p>
         </footer>
       </div>
     </Router>
